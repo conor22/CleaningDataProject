@@ -53,13 +53,16 @@ merged_Data_sub$activity <- as.factor(merged_Data_sub$activity)
 levels(merged_Data_sub$activity) = c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
 
 ## STEP 4: Required: "Appropriately labels the data set with descriptive variable names."
-## this has been done in Step 1
+## first convert all column names to lower case, then remove all/any special characters
+names(merged_Data_sub) <- tolower(names(merged_Data_sub))
+names(merged_Data_sub) <- gsub("[[:punct:]]", "", names(merged_Data_sub),)
+
 
 ## STEP 5: Required: "Creates a second, independent tidy data set with the average of each variable for each activity and each subject."
 
 library(reshape2)
-all_melted <- melt(merged_Data_sub, id=c("subject_ID", "activity"))
-all_complete_tidy <- dcast(all_melted, subject_ID+activity ~ variable, mean)
+all_melted <- melt(merged_Data_sub, id=c("subjectid", "activity"))
+all_complete_tidy <- dcast(all_melted, subjectid+activity ~ variable, mean)
 
 ## write the data to a separate file
 write.csv(all_complete_tidy, "tidyData.csv", row.names=F)
