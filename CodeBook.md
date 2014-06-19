@@ -38,74 +38,74 @@ The original data set contains files that were not used in the output of this pr
 The tidyData.csv file output from the run_analysis.R script is as follows:
 
 'data.frame':	180 obs. of  68 variables:
- 1. $ subjectid               : int  range 1-30
- 2. $ activity                : Factor w/ 6 levels "WALKING","WALKING_UPSTAIRS",..:
- 3. $ timebodyaccmeanx           : num  range -1.0 -> +1.0
- 4. $ timebodyaccmeany          : num  range -1.0 -> +1.0
- 5. $ timebodyaccmeanz                      : num  range -1.0 -> +1.0
- 6. $ timebodyaccstandarddeviationx   : num  range -1.0 -> +1.0
- 7. $ timebodyaccstandarddeviationy            : num  range -1.0 -> +1.0
- 8. $ timebodyaccstandarddeviationz       : num  range -1.0 -> +1.0
- 9. $ timegravityaccmeanx       : num  range -1.0 -> +1.0
- 10. $ timegravityaccmeany        : num  range -1.0 -> +1.0
- 11. $ timegravityaccmeanz        : num  range -1.0 -> +1.0
- 12. $ timegravityaccstandarddeviationx         : num  range -1.0 -> +1.0
- 13. $ timegravityaccstandarddeviationy         : num  range -1.0 -> +1.0
- 14. $ timegravityaccstandarddeviationz      : num  range -1.0 -> +1.0
- 15. $ timebodyaccjerkmeanx      : num  range -1.0 -> +1.0
- 16. $ timebodyaccjerkmeany      : num  range -1.0 -> +1.0
- 17. $ timebodyaccjerkmeanz        : num  range -1.0 -> +1.0
- 18. $ timebodyaccjerkstandarddeviationx        : num  range -1.0 -> +1.0
- 19. $ timebodyaccjerkstandarddeviationy       : num  range -1.0 -> +1.0
- 20. $ timebodyaccjerkstandarddeviationz          : num  range -1.0 -> +1.0
- 21. $ timebodygyroscopemeanx          : num  range -1.0 -> +1.0
- 22. $ timebodygyroscopemeany           : num  range -1.0 -> +1.0
- 23. $ timebodygyroscopemeanz           : num  range -1.0 -> +1.0
- 24. $ timebodygyroscopestandarddeviationx           : num  range -1.0 -> +1.0
- 25. $ timebodygyroscopestandarddeviationy     : num  range -1.0 -> +1.0
- 26. $ timebodygyroscopestandarddeviationz      : num  range -1.0 -> +1.0
- 27. $ timebodygyroscopejerkmeanx      : num  range -1.0 -> +1.0
- 28. $ timebodygyroscopejerkmeany       : num  range -1.0 -> +1.0
- 29. $ timebodygyroscopejerkmeanz       : num  range -1.0 -> +1.0
- 30. $ timebodygyroscopejerkstandarddeviationx       : num  range -1.0 -> +1.0
- 31. $ timebodygyroscopejerkstandarddeviationy        : num  range -1.0 -> +1.0
- 32. $ timebodygyroscopejerkstandarddeviationz        : num  range -1.0 -> +1.0
- 33. $ timebodyaccmagmean      : num  range -1.0 -> +1.0
- 34. $ timebodyaccmagstandarddeviation       : num  range -1.0 -> +1.0
- 35. $ timegravityaccmagmean     : num  range -1.0 -> +1.0
- 36. $ timegravityaccmagstandarddeviation      : num  range -1.0 -> +1.0
- 37. $ timebodyaccjerkmagmean       : num  range -1.0 -> +1.0
- 38. $ timebodyaccjerkmagstandarddeviation        : num  range -1.0 -> +1.0
- 39. $ timebodygyroscopemagmean    : num  range -1.0 -> +1.0
- 40. $ timebodygyroscopemagstandarddeviation    : num  range -1.0 -> +1.0
- 41. $ timebodygyroscopejerkmagmean           : num  range -1.0 -> +1.0
- 42. $ timebodygyroscopejerkmagstandarddeviation           : num  range -1.0 -> +1.0
- 43. $ frequencybodyaccmeanx           : num  range -1.0 -> +1.0
- 44. $ frequencybodyaccmeany           : num  range -1.0 -> +1.0
- 45. $ frequencybodyaccmeanz            : num  range -1.0 -> +1.0
- 46. $ frequencybodyaccstandarddeviationx           : num  range -1.0 -> +1.0
- 47. $ frequencybodyaccstandarddeviationy       : num  range -1.0 -> +1.0
- 48. $ frequencybodyaccstandarddeviationz       : num  range -1.0 -> +1.0
- 49. $ frequencybodyaccjerkmeanx       : num  range -1.0 -> +1.0
- 50. $ frequencybodyaccjerkmeany       : num  range -1.0 -> +1.0
- 51. $ frequencybodyaccjerkmeanz        : num  range -1.0 -> +1.0
- 52. $ frequencybodyaccjerkstandarddeviationx       : num  range -1.0 -> +1.0
- 53. $ frequencybodyaccjerkstandarddeviationy         : num  range -1.0 -> +1.0
- 54. $ frequencybodyaccjerkstandarddeviationz          : num  range -1.0 -> +1.0
- 55. $ frequencybodygyroscopemeanx          : num  range -1.0 -> +1.0
- 56. $ frequencybodygyroscopemeany           : num  range -1.0 -> +1.0
- 57. $ frequencybodygyroscopemeanz          : num  range -1.0 -> +1.0
- 58. $ frequencybodygyroscopestandarddeviationx          : num  range -1.0 -> +1.0
- 59. $ frequencybodygyroscopestandarddeviationy         : num  range -1.0 -> +1.0
- 60. $ frequencybodygyroscopestandarddeviationz        : num  range -1.0 -> +1.0
- 61. $ frequencybodyaccmagmean : num  range -1.0 -> +1.0
- 62. $ frequencybodyaccmagstandarddeviation : num  range -1.0 -> +1.0
- 63. $ frequencybodybodyaccjerkmagmean   : num  range -1.0 -> +1.0
- 64. $ frequencybodybodyaccjerkmagstandarddeviation    : num  range -1.0 -> +1.0
- 65. $ frequencybodybodygyroscopemagmean: num  range -1.0 -> +1.0
- 66. $ frequencybodybodygyroscopemagstandarddeviation: num  range -1.0 -> +1.0
- 67. $ frequencybodybodygyroscopejerkmagmean: num  range -1.0 -> +1.0
- 68. $ frequencybodybodygyroscopejerkmagstandarddeviation: num  range -1.0 -> +1.0
+ 1. $ subjectid: int  range 1-30
+ 2. $ activity: Factor w/ 6 levels "WALKING","WALKING_UPSTAIRS",..:
+ 3. $ timebodyaccmeanx: num,  range -1.0 -> +1.0
+ 4. $ timebodyaccmeany: num,  range -1.0 -> +1.0
+ 5. $ timebodyaccmeanz: num,  range -1.0 -> +1.0
+ 6. $ timebodyaccstandarddeviationx: num,  range -1.0 -> +1.0
+ 7. $ timebodyaccstandarddeviationy: num,  range -1.0 -> +1.0
+ 8. $ timebodyaccstandarddeviationz: num,  range -1.0 -> +1.0
+ 9. $ timegravityaccmeanx: num,  range -1.0 -> +1.0
+ 10. $ timegravityaccmeany: num,  range -1.0 -> +1.0
+ 11. $ timegravityaccmeanz: num,  range -1.0 -> +1.0
+ 12. $ timegravityaccstandarddeviationx: num,  range -1.0 -> +1.0
+ 13. $ timegravityaccstandarddeviationy: num,  range -1.0 -> +1.0
+ 14. $ timegravityaccstandarddeviationz: num,  range -1.0 -> +1.0
+ 15. $ timebodyaccjerkmeanx: num,  range -1.0 -> +1.0
+ 16. $ timebodyaccjerkmeany: num, range -1.0 -> +1.0
+ 17. $ timebodyaccjerkmeanz: num,  range -1.0 -> +1.0
+ 18. $ timebodyaccjerkstandarddeviationx: num,  range -1.0 -> +1.0
+ 19. $ timebodyaccjerkstandarddeviationy: num,  range -1.0 -> +1.0
+ 20. $ timebodyaccjerkstandarddeviationz: num,  range -1.0 -> +1.0
+ 21. $ timebodygyroscopemeanx: num,  range -1.0 -> +1.0
+ 22. $ timebodygyroscopemeany: num,  range -1.0 -> +1.0
+ 23. $ timebodygyroscopemeanz: num,  range -1.0 -> +1.0
+ 24. $ timebodygyroscopestandarddeviationx: num,  range -1.0 -> +1.0
+ 25. $ timebodygyroscopestandarddeviationy: num,  range -1.0 -> +1.0
+ 26. $ timebodygyroscopestandarddeviationz: num,  range -1.0 -> +1.0
+ 27. $ timebodygyroscopejerkmeanx: num,  range -1.0 -> +1.0
+ 28. $ timebodygyroscopejerkmeany: num,  range -1.0 -> +1.0
+ 29. $ timebodygyroscopejerkmeanz: num,  range -1.0 -> +1.0
+ 30. $ timebodygyroscopejerkstandarddeviationx: num,  range -1.0 -> +1.0
+ 31. $ timebodygyroscopejerkstandarddeviationy: num,  range -1.0 -> +1.0
+ 32. $ timebodygyroscopejerkstandarddeviationz: num,  range -1.0 -> +1.0
+ 33. $ timebodyaccmagmean: num,  range -1.0 -> +1.0
+ 34. $ timebodyaccmagstandarddeviation: num,  range -1.0 -> +1.0
+ 35. $ timegravityaccmagmean: num,  range -1.0 -> +1.0
+ 36. $ timegravityaccmagstandarddeviation: num,  range -1.0 -> +1.0
+ 37. $ timebodyaccjerkmagmean : num,  range -1.0 -> +1.0
+ 38. $ timebodyaccjerkmagstandarddeviation: num,  range -1.0 -> +1.0
+ 39. $ timebodygyroscopemagmean: num,  range -1.0 -> +1.0
+ 40. $ timebodygyroscopemagstandarddeviation: num,  range -1.0 -> +1.0
+ 41. $ timebodygyroscopejerkmagmean: num,  range -1.0 -> +1.0
+ 42. $ timebodygyroscopejerkmagstandarddeviation: num  range -1.0 -> +1.0
+ 43. $ frequencybodyaccmeanx: num,  range -1.0 -> +1.0
+ 44. $ frequencybodyaccmeany: num,  range -1.0 -> +1.0
+ 45. $ frequencybodyaccmeanz: num,  range -1.0 -> +1.0
+ 46. $ frequencybodyaccstandarddeviationx: num,  range -1.0 -> +1.0
+ 47. $ frequencybodyaccstandarddeviationy: num,  range -1.0 -> +1.0
+ 48. $ frequencybodyaccstandarddeviationz: num,  range -1.0 -> +1.0
+ 49. $ frequencybodyaccjerkmeanx: num,  range -1.0 -> +1.0
+ 50. $ frequencybodyaccjerkmeany: num, range -1.0 -> +1.0
+ 51. $ frequencybodyaccjerkmeanz: num,  range -1.0 -> +1.0
+ 52. $ frequencybodyaccjerkstandarddeviationx: num,,  range -1.0 -> +1.0
+ 53. $ frequencybodyaccjerkstandarddeviationy: num,  range -1.0 -> +1.0
+ 54. $ frequencybodyaccjerkstandarddeviationz: num,  range -1.0 -> +1.0
+ 55. $ frequencybodygyroscopemeanx: num,  range -1.0 -> +1.0
+ 56. $ frequencybodygyroscopemeany: num,  range -1.0 -> +1.0
+ 57. $ frequencybodygyroscopemeanz: num,  range -1.0 -> +1.0
+ 58. $ frequencybodygyroscopestandarddeviationx: num,  range -1.0 -> +1.0
+ 59. $ frequencybodygyroscopestandarddeviationy: num,  range -1.0 -> +1.0
+ 60. $ frequencybodygyroscopestandarddeviationz: num,  range -1.0 -> +1.0
+ 61. $ frequencybodyaccmagmean: num,  range -1.0 -> +1.0
+ 62. $ frequencybodyaccmagstandarddeviation: num,  range -1.0 -> +1.0
+ 63. $ frequencybodybodyaccjerkmagmean: num,  range -1.0 -> +1.0
+ 64. $ frequencybodybodyaccjerkmagstandarddeviation: num,  range -1.0 -> +1.0
+ 65. $ frequencybodybodygyroscopemagmean: num,  range -1.0 -> +1.0
+ 66. $ frequencybodybodygyroscopemagstandarddeviation: num,  range -1.0 -> +1.0
+ 67. $ frequencybodybodygyroscopejerkmagmean: num,  range -1.0 -> +1.0
+ 68. $ frequencybodybodygyroscopejerkmagstandarddeviation: num,  range -1.0 -> +1.0
 Original column names we altered to conform with best practice variable naming conventions. All names were converted to lower case and all special characters were removed. Further details on the naming convention can be found in the 'features_info.txt' file. 
 
 
