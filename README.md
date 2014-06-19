@@ -8,7 +8,10 @@ The data set was collected in relation to the following project and publication:
 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset Version 1.0
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+David Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on 
+Smartphones usin a Multiclass Hardware-Friendly Support Vectgor Maching. International WOrkshop of Ambient Assisted 
+Living (IAWAAL, 2012). Vitoria-Gasteiz, Spain. Dec 2012. 
+
 ==================================================================
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 Further details can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
