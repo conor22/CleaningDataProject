@@ -38,11 +38,11 @@ The original data set contains files that were not used in the output of this pr
 The tidyData.csv file output from the run_analysis.R script is as follows:
 
 'data.frame':	180 obs. of  68 variables:
- $ subjectid               : int  range 1-30
- $ activity                : Factor w/ 6 levels "WALKING","WALKING_UPSTAIRS",..:
- $ tbodyaccmeanx           : num  range -1.0 -> +1
- $ tbodyaccmeany           : num  range -1.0 -> +1
- $ tbodyaccstdx            : num  range -1.0 -> +1
+ -$ subjectid               : int  range 1-30
+ -$ activity                : Factor w/ 6 levels "WALKING","WALKING_UPSTAIRS",..:
+ -$ tbodyaccmeanx           : num  range -1.0 -> +1
+ -$ tbodyaccmeany           : num  range -1.0 -> +1
+ -$ tbodyaccstdx            : num  range -1.0 -> +1
  $ tbodyaccstdy            : num  range -1.0 -> +1
  $ tbodyaccstdz            : num  range -1.0 -> +1
  $ tgravityaccmeanx        : num  range -1.0 -> +1
