@@ -40,71 +40,70 @@ The tidyData.csv file output from the run_analysis.R script is as follows:
 'data.frame':	180 obs. of  68 variables:
  1. $ subjectid               : int  range 1-30
  2. $ activity                : Factor w/ 6 levels "WALKING","WALKING_UPSTAIRS",..:
- 3. $ tbodyaccmeanx           : num  range -1.0 -> +1
- 4. $ tbodyaccmeany           : num  range -1.0 -> +1
- 5. $ tbodyaccstdx            : num  range -1.0 -> +1
- 6. $ tbodyaccstdy            : num  range -1.0 -> +1
- 7. $ tbodyaccstdz            : num  range -1.0 -> +1
- 8. $ tgravityaccmeanx        : num  range -1.0 -> +1
- 9. $ tgravityaccmeany        : num  range -1.0 -> +1
- 10. $ tgravityaccmeanz        : num  range -1.0 -> +1
- 11. $ tgravityaccstdx         : num  range -1.0 -> +1
- 12. $ tgravityaccstdy         : num  range -1.0 -> +1
- 13. $ tgravityaccstdz         : num  range -1.0 -> +1
- 14. $ tbodyaccjerkmeanx       : num  range -1.0 -> +1
- 15. $ tbodyaccjerkmeany       : num  range -1.0 -> +1
- 16. $ tbodyaccjerkmeanz       : num  range -1.0 -> +1
- 17. $ tbodyaccjerkstdx        : num  range -1.0 -> +1
- 18. $ tbodyaccjerkstdy        : num  range -1.0 -> +1
- 19. $ tbodyaccjerkstdz        : num  range -1.0 -> +1
- 20. $ tbodygyromeanx          : num  range -1.0 -> +1.
- 21. $ tbodygyromeanz          : num  range -1.0 -> +1
- 22. $ tbodygyrostdx           : num  range -1.0 -> +1
- 23. $ tbodygyrostdy           : num  range -1.0 -> +1
- 24. $ tbodygyrostdz           : num  range -1.0 -> +1
- 25. $ tbodygyrojerkmeanx      : num  range -1.0 -> +1
- 26. $ tbodygyrojerkmeany      : num  range -1.0 -> +1
- 27. $ tbodygyrojerkmeanz      : num  range -1.0 -> +1
- 28. $ tbodygyrojerkstdx       : num  range -1.0 -> +1
- 29. $ tbodygyrojerkstdy       : num  -0.304 -0.602 -0.239 -0.99 -0.995 ...
- 30. $ tbodygyrojerkstdz       : num  -0.404 -0.606 -0.269 -0.988 -0.992 ...
- 31. $ tbodyaccmagmean         : num  -0.137 -0.1299 0.0272 -0.9485 -0.9843 ...
- 32. $ tbodyaccmagstd          : num  -0.2197 -0.325 0.0199 -0.9271 -0.9819 ...
- 33. $ tgravityaccmagmean      : num  -0.137 -0.1299 0.0272 -0.9485 -0.9843 ...
- 34. $ tgravityaccmagstd       : num  -0.2197 -0.325 0.0199 -0.9271 -0.9819 ...
- 35. $ tbodyaccjerkmagmean     : num  -0.1414 -0.4665 -0.0894 -0.9874 -0.9924 ...
- 36. $ tbodyaccjerkmagstd      : num  -0.0745 -0.479 -0.0258 -0.9841 -0.9931 ...
- 37. $ tbodygyromagmean        : num  -0.161 -0.1267 -0.0757 -0.9309 -0.9765 ...
- 38. $ tbodygyromagstd         : num  -0.187 -0.149 -0.226 -0.935 -0.979 ...
- 39. $ tbodygyrojerkmagmean    : num  -0.299 -0.595 -0.295 -0.992 -0.995 ...
- 40. $ tbodygyrojerkmagstd     : num  -0.325 -0.649 -0.307 -0.988 -0.995 ...
- 41. $ fbodyaccmeanx           : num  -0.2028 -0.4043 0.0382 -0.9796 -0.9952 ...
- 42. $ fbodyaccmeany           : num  0.08971 -0.19098 0.00155 -0.94408 -0.97707 ...
- 43. $ fbodyaccmeanz           : num  -0.332 -0.433 -0.226 -0.959 -0.985 ...
- 44. $ fbodyaccstdx            : num  -0.3191 -0.3374 0.0243 -0.9764 -0.996 ...
- 45. $ fbodyaccstdy            : num  0.056 0.0218 -0.113 -0.9173 -0.9723 ...
- 46. $ fbodyaccstdz            : num  -0.28 0.086 -0.298 -0.934 -0.978 ...
- 47. $ fbodyaccjerkmeanx       : num  -0.1705 -0.4799 -0.0277 -0.9866 -0.9946 ...
- 48. $ fbodyaccjerkmeany       : num  -0.0352 -0.4134 -0.1287 -0.9816 -0.9854 ...
- 49. $ fbodyaccjerkmeanz       : num  -0.469 -0.685 -0.288 -0.986 -0.991 ...
- 50. $ fbodyaccjerkstdx        : num  -0.1336 -0.4619 -0.0863 -0.9875 -0.9951 ...
- 51. $ fbodyaccjerkstdy        : num  0.107 -0.382 -0.135 -0.983 -0.987 ...
- 52. $ fbodyaccjerkstdz        : num  -0.535 -0.726 -0.402 -0.988 -0.992 ...
- 53. $ fbodygyromeanx          : num  -0.339 -0.493 -0.352 -0.976 -0.986 ...
- 54. $ fbodygyromeany          : num  -0.1031 -0.3195 -0.0557 -0.9758 -0.989 ...
- 55. $ fbodygyromeanz          : num  -0.2559 -0.4536 -0.0319 -0.9513 -0.9808 ...
- 56. $ fbodygyrostdx           : num  -0.517 -0.566 -0.495 -0.978 -0.987 ...
- 57. $ fbodygyrostdy           : num  -0.0335 0.1515 -0.1814 -0.9623 -0.9871 ...
- 58. $ fbodygyrostdz           : num  -0.437 -0.572 -0.238 -0.944 -0.982 ...
- 59. $ fbodyaccmagmean         : num  -0.1286 -0.3524 0.0966 -0.9478 -0.9854 ...
- 60. $ fbodyaccmagstd          : num  -0.398 -0.416 -0.187 -0.928 -0.982 ...
- 61. $ fbodybodyaccjerkmagmean : num  -0.0571 -0.4427 0.0262 -0.9853 -0.9925 ...
- 62. $ fbodybodyaccjerkmagstd  : num  -0.103 -0.533 -0.104 -0.982 -0.993 ...
- 63. $ fbodybodygyromagmean    : num  -0.199 -0.326 -0.186 -0.958 -0.985 ...
- 64. $ fbodybodygyromagstd     : num  -0.321 -0.183 -0.398 -0.932 -0.978 ...
- 65. $ fbodybodygyrojerkmagmean: num  -0.319 -0.635 -0.282 -0.99 -0.995 ...
- 66. $ fbodybodygyrojerkmagstd : num  -0.382 -0.694 -0.392 -0.987 -0.995 ...
-
+ 3. $ tbodyaccmeanx           : num  range -1.0 -> +1.0
+ 4. $ tbodyaccmeany           : num  range -1.0 -> +1.0
+ 5. $ tbodyaccstdx            : num  range -1.0 -> +1.0
+ 6. $ tbodyaccstdy            : num  range -1.0 -> +1.0
+ 7. $ tbodyaccstdz            : num  range -1.0 -> +1.0
+ 8. $ tgravityaccmeanx        : num  range -1.0 -> +1.0
+ 9. $ tgravityaccmeany        : num  range -1.0 -> +1.0
+ 10. $ tgravityaccmeanz        : num  range -1.0 -> +1.0
+ 11. $ tgravityaccstdx         : num  range -1.0 -> +1.0
+ 12. $ tgravityaccstdy         : num  range -1.0 -> +1.0
+ 13. $ tgravityaccstdz         : num  range -1.0 -> +1.0
+ 14. $ tbodyaccjerkmeanx       : num  range -1.0 -> +1.0
+ 15. $ tbodyaccjerkmeany       : num  range -1.0 -> +1.0
+ 16. $ tbodyaccjerkmeanz       : num  range -1.0 -> +1.0
+ 17. $ tbodyaccjerkstdx        : num  range -1.0 -> +1.0
+ 18. $ tbodyaccjerkstdy        : num  range -1.0 -> +1.0
+ 19. $ tbodyaccjerkstdz        : num  range -1.0 -> +1.0
+ 20. $ tbodygyromeanx          : num  range -1.0 -> +1.0
+ 21. $ tbodygyromeanz          : num  range -1.0 -> +1.0
+ 22. $ tbodygyrostdx           : num  range -1.0 -> +1.0
+ 23. $ tbodygyrostdy           : num  range -1.0 -> +1.0
+ 24. $ tbodygyrostdz           : num  range -1.0 -> +1.0
+ 25. $ tbodygyrojerkmeanx      : num  range -1.0 -> +1.0
+ 26. $ tbodygyrojerkmeany      : num  range -1.0 -> +1.0
+ 27. $ tbodygyrojerkmeanz      : num  range -1.0 -> +1.0
+ 28. $ tbodygyrojerkstdx       : num  range -1.0 -> +1.0
+ 29. $ tbodygyrojerkstdy       : num  range -1.0 -> +1.0
+ 30. $ tbodygyrojerkstdz       : num  range -1.0 -> +1.0
+ 31. $ tbodyaccmagmean         : num  range -1.0 -> +1.0
+ 32. $ tbodyaccmagstd          : num  range -1.0 -> +1.0
+ 33. $ tgravityaccmagmean      : num  range -1.0 -> +1.0
+ 34. $ tgravityaccmagstd       : num  range -1.0 -> +1.0
+ 35. $ tbodyaccjerkmagmean     : num  range -1.0 -> +1.0
+ 36. $ tbodyaccjerkmagstd      : num  range -1.0 -> +1.0
+ 37. $ tbodygyromagmean        : num  range -1.0 -> +1.0
+ 38. $ tbodygyromagstd         : num  range -1.0 -> +1.0
+ 39. $ tbodygyrojerkmagmean    : num  range -1.0 -> +1.0
+ 40. $ tbodygyrojerkmagstd     : num  range -1.0 -> +1.0
+ 41. $ fbodyaccmeanx           : num  range -1.0 -> +1.0
+ 42. $ fbodyaccmeany           : num  range -1.0 -> +1.0
+ 43. $ fbodyaccmeanz           : num  range -1.0 -> +1.0
+ 44. $ fbodyaccstdx            : num  range -1.0 -> +1.0
+ 45. $ fbodyaccstdy            : num  range -1.0 -> +1.0
+ 46. $ fbodyaccstdz            : num  range -1.0 -> +1.0
+ 47. $ fbodyaccjerkmeanx       : num  range -1.0 -> +1.0
+ 48. $ fbodyaccjerkmeany       : num  range -1.0 -> +1.0
+ 49. $ fbodyaccjerkmeanz       : num  range -1.0 -> +1.0
+ 50. $ fbodyaccjerkstdx        : num  range -1.0 -> +1.0
+ 51. $ fbodyaccjerkstdy        : num  range -1.0 -> +1.0
+ 52. $ fbodyaccjerkstdz        : num  range -1.0 -> +1.0
+ 53. $ fbodygyromeanx          : num  range -1.0 -> +1.0
+ 54. $ fbodygyromeany          : num  range -1.0 -> +1.0
+ 55. $ fbodygyromeanz          : num  range -1.0 -> +1.0
+ 56. $ fbodygyrostdx           : num  range -1.0 -> +1.0
+ 57. $ fbodygyrostdy           : num  range -1.0 -> +1.0
+ 58. $ fbodygyrostdz           : num  range -1.0 -> +1.0
+ 59. $ fbodyaccmagmean         : num  range -1.0 -> +1.0
+ 60. $ fbodyaccmagstd          : num  range -1.0 -> +1.0
+ 61. $ fbodybodyaccjerkmagmean : num  range -1.0 -> +1.0
+ 62. $ fbodybodyaccjerkmagstd  : num  range -1.0 -> +1.0
+ 63. $ fbodybodygyromagmean    : num  range -1.0 -> +1.0
+ 64. $ fbodybodygyromagstd     : num  range -1.0 -> +1.0
+ 65. $ fbodybodygyrojerkmagmean: num  range -1.0 -> +1.0
+ 66. $ fbodybodygyrojerkmagstd : num  range -1.0 -> +1.0
 Original column names we altered to conform with best practice variable naming conventions. All names were converted to lower case and all special characters were removed. Further details on the naming convention can be found in the 'features_info.txt' file. 
 
 
@@ -113,7 +112,7 @@ Original column names we altered to conform with best practice variable naming c
 ### Data transformation/processing steps
 The run_analysis.R script has been commented to detail the steps carried out in the data transformation. The steps summarised as: 
 
-1. Read all the relevant 'train' and 'test' files into data frames in R. Column names were added and then the all of the data is added together to make one data frame.
+1. Read all the relevant 'train' and 'test' files into data frames in R. Column names were added and then the all test and train data is added together to make a single data set.
 2. Subset the dataframe to only include columns that include mean() or std() measurements.
 3. The activity_ID column was converted to a factor variable with 6 levels (as per 'activity_labesl.txt')
 4. A tidy data set was created was created containing the mean of each feature - for each subject and each activity.
