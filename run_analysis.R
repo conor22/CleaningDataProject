@@ -56,13 +56,17 @@ levels(merged_Data_sub$activity) = c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOW
 ## first convert all column names to lower case, then remove all/any special characters
 names(merged_Data_sub) <- tolower(names(merged_Data_sub))
 names(merged_Data_sub) <- gsub("[[:punct:]]", "", names(merged_Data_sub),)
-
+names(merged_Data_sub) <- gsub("^f", "frequency", names(merged_Data_sub))
+names(merged_Data_sub) <- gsub("^t", "time", names(merged_Data_sub))
+names(merged_Data_sub) <- gsub("accelerometer", "frequency", names(merged_Data_sub))
+names(merged_Data_sub) <- gsub("gyro", "gyroscope", names(merged_Data_sub))
+names(merged_Data_sub) <- gsub("std", "standarddeviation", names(merged_Data_sub))
 
 ## STEP 5: Required: "Creates a second, independent tidy data set with the average of each variable for each activity and each subject."
-
 library(reshape2)
 all_melted <- melt(merged_Data_sub, id=c("subjectid", "activity"))
 all_complete_tidy <- dcast(all_melted, subjectid+activity ~ variable, mean)
+
 
 ## write the data to a separate file
 write.csv(all_complete_tidy, "tidyData.csv", row.names=F)
