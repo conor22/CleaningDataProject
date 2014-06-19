@@ -5,9 +5,9 @@ This CodeBook provides and overview of the data files and variable types used in
 
 ==================================================================
 ### Original Data Source
-All of the original data for this project was gathered as part of a *Human Activity Recognition Using Smartphones Dataset*, and the original data can be found in a .zip file located [here] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip )
+All of the original data for this project was gathered as part of a *Human Activity Recognition Using Smartphones Dataset*, and the original data can be found in a .zip file located [here] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
-Further details on how the data was gathered is available [here] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+Further details on how how the data was gathered and the project in general is available [here] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 
 ==================================================================
