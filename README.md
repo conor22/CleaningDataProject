@@ -7,7 +7,7 @@ This project assignment was completed as an assessment element on the Coursera '
 
 ### Original Data Source Project Overview
 
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Further details can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Further details can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 The data set was collected in relation to the following project and publication:
 
@@ -19,9 +19,8 @@ Living (IAWAAL, 2012). Vitoria-Gasteiz, Spain. Dec 2012.
 ==================================================================
 
 ### Required tasks
-The Getting & Cleaning Data Project required the following set of tasks to be performed:
+The Getting & Cleaning Data Project required the following set of tasks to be performed on the original data files:
 
-"You should create one R script called run_analysis.R that does the following. 
 
     1. Merges the training and the test sets to create one data set.
     2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -34,7 +33,7 @@ The Getting & Cleaning Data Project required the following set of tasks to be pe
 ### R Script & Data Files Needed 
 The run_analysis.R script (available in this folder) has been created to complete the 'Required tasks'. Before you can run this script you need to completed the following steps:
 
-1. Download the data from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+1. Download the data from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 2. Unziping the file will created a 'UCI HAR Dataset' folder containing files and sub-folders
 
