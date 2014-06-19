@@ -3,17 +3,18 @@
 
 This project assignment was completed as an assessment element on the Coursera 'Getting and Cleaning Data' module. This is one module of a 9 part Data Science Specialization. For more information on this module and the others offered in this specialisation please see [here](https://www.coursera.org/specialization/jhudatascience/1/courses).
 
+==================================================================
+
 ### Original Data Source Project Overview
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Further details can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
 The data set was collected in relation to the following project and publication:
 
-==================================================================
 Human Activity Recognition Using Smartphones Dataset Version 1.0
 David Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on 
 Smartphones usin a Multiclass Hardware-Friendly Support Vectgor Maching. International Workshop of Ambient Assisted 
 Living (IAWAAL, 2012). Vitoria-Gasteiz, Spain. Dec 2012. 
-
-==================================================================
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Further details can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ==================================================================
 
@@ -49,6 +50,8 @@ The run_analysis.R script (available in this folder) has been created to complet
     *Note*: there are a number of other files in this folder but are not required in the analysis completed here
 
 4. Running the 'run_analysis.R' script will output a 'tidyData.csv' file. Please see the CodeBook.md file in this folder for a more detailed description of the data and the steps takes to transform the data
+
+*Note:* you will also need to install the 'reshape2' R package. 
 
 ==================================================================
 
