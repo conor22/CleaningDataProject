@@ -43,7 +43,7 @@ The run_analysis.R script (available in this folder) has been created to complet
     * 'X_test.txt'
     * 'y_test.txt'
 
-*Note*: there are a number of other files in this folder but are not required in the analysis completed here
+    *Note*: there are a number of other files in this folder but are not required in the analysis completed here
 
 4. Running the 'run_analysis.R' script will output a 'tidyData.csv' file. Please see the CodeBook.md file in this folder for a more detailed description of the data and the steps takes to transform the data
 
