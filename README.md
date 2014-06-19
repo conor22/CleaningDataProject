@@ -35,13 +35,13 @@ The run_analysis.R script (available in this folder) has been created to complet
 2. Unziping the file will created a 'UCI HAR Dataset' folder containing files and sub-folders
 
 3. You need to ensure that the files listed below are **ALL IN THE SAME** folder as the 'run_analysis.R' script:
-- 'subject_train.txt'
-- 'X_train.txt'
-- 'features.txt'
-- 'y_train.txt'
-- 'subject_test.txt'
-- 'X_test.txt'
-- 'y_test.txt'
+* 'subject_train.txt'
+* 'X_train.txt'
+* 'features.txt'
+* 'y_train.txt'
+* 'subject_test.txt'
+* 'X_test.txt'
+* 'y_test.txt'
 
 *Note*: there are a number of other files in this folder but are not required in the analysis completed here
 
