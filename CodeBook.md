@@ -1,5 +1,5 @@
 ## CodeBook for Getting & Cleaning Data - Project Assignment
-SEE IF  I CAN PULL THIS DOWN
+
 This CodeBook provides and overview of the data files and variable types used in this project. It also includes details of the steps followed to create the 'tidyData.csv' file from the original data set provided.
 
 
