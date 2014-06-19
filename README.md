@@ -3,7 +3,7 @@
 
 This project assignment was completed as an assessment element on the Coursera 'Getting and Cleaning Data' module. This is one module of a 9 part Data Science Specialization. For more information on this module and the others offered in this specialisation please see [here](https://www.coursera.org/specialization/jhudatascience/1/courses).
 
-### Data & Project Overview
+### Original Data Source Project Overview
 The data set was collected in relation to the following project and publication:
 
 ==================================================================
