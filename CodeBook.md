@@ -12,17 +12,24 @@ Further details on how how the data was gathered and the project in general is a
 
 ==================================================================
 ### Data files used and descriptions
-The original data set contains files that were not used in the output of this project. Files from the original data set were used and they are as follows:
+The original data set contains files that were not used in the output of this project. A number of files from the original data set were used and they are as follows:
 
 - 'subject_train.txt': Contains 7353 rows and 1 col. Each row contains an integer that identifies the subject_ID who performed the activity. Its range is from 1-30.
+
 - 'X_train.txt': Contains 7352 rows and 561 cols of measurements for the training experiments. 
+
 - 'features.txt': Contains 561 rows and 1 col. Lists all of the features for the train and test experiments. 
+
 - 'y_train.txt': Contains 7352 rows and 1 col. A factor list with range 1-6 for each of the training activities as listed in 'activity_labels.txt' file. These include walking, sitting, standing etc
+
 - 'subject_test.txt': Contains 2947 rows and 1 col. Each row contains an integer that identifies the subject_ID who performed the activity. Range is from 2-24. 
+
 - 'X_test.txt': Contains 2947 rows and 561 cols of measurements for the test experiments.
+
 - 'y_test.txt': Contains 2947 rows and 1 col. A factor list with range 1-6 for each of the test activities as listed in 'activity_labels.txt' file. These include walking, sitting, standing etc
 
 - 'features_info.txt': Details the naming convention used in all of the variables in the data set.
+
 - 'activity_labels.txt': Details the 6 x activities each participant was measured for. 
 
 
