@@ -35,6 +35,9 @@ The original data set contains files that were not used in the output of this pr
 
 ==================================================================
 ### Variables in the tidyData.csv output
+
+Original column names we altered to conform with best practice variable naming conventions. All names were converted to lower case and all special characters were removed. Names were also altered to make more sense i.e. variables that started with 't' were changed to read 'time...'. Further details on the naming convention can be found in the 'features_info.txt' file. 
+
 The tidyData.csv file output from the run_analysis.R script is as follows:
 
 'data.frame':	180 obs. of  68 variables:
@@ -107,9 +110,6 @@ The tidyData.csv file output from the run_analysis.R script is as follows:
  67. $ frequencybodybodygyroscopejerkmagmean: num,  range -1.0 -> +1.0
  68. $ frequencybodybodygyroscopejerkmagstandarddeviation: num,  range -1.0 -> +1.0
  
- 
-Original column names we altered to conform with best practice variable naming conventions. All names were converted to lower case and all special characters were removed. Names were also altered to make more sense i.e. variables that started with 't' were changed to read 'time...'. Further details on the naming convention can be found in the 'features_info.txt' file. 
-
 
 ==================================================================
 
