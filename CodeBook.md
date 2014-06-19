@@ -34,7 +34,7 @@ The original data set contains files that were not used in the output of this pr
 
 
 ==================================================================
-### Variables in the tidyData.csv output
+### Variables in the tidyData.csv output file
 
 Original column names we altered to conform with best practice variable naming conventions. All names were converted to lower case and all special characters were removed. Names were also altered to make more sense i.e. variables that started with 't' were changed to read 'time...'. Further details on the naming convention can be found in the 'features_info.txt' file. 
 
