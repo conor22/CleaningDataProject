@@ -56,6 +56,8 @@ levels(merged_Data_sub$activity) = c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOW
 ## first convert all column names to lower case, then remove all/any special characters
 names(merged_Data_sub) <- tolower(names(merged_Data_sub))
 names(merged_Data_sub) <- gsub("[[:punct:]]", "", names(merged_Data_sub),)
+
+## the change the column names into more readbale formats
 names(merged_Data_sub) <- gsub("^f", "frequency", names(merged_Data_sub))
 names(merged_Data_sub) <- gsub("^t", "time", names(merged_Data_sub))
 names(merged_Data_sub) <- gsub("accelerometer", "frequency", names(merged_Data_sub))

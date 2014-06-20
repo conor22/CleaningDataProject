@@ -114,7 +114,7 @@ The tidyData.csv file output from the run_analysis.R script is as follows:
 ==================================================================
 
 ### Data transformation/processing steps
-The run_analysis.R script has been commented to detail the steps carried out in the data transformation. The steps summarised as: 
+The run_analysis.R script has been commented with detailed the steps carried out in the data transformation. The steps summarised as: 
 
 1. Read all the relevant 'train' and 'test' files into data frames in R. Column names were added and then the all test and train data is added together to make a single data set.
 2. Subset the dataframe to only include columns that include mean() or std() measurements.
